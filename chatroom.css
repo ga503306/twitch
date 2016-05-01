@@ -1,0 +1,26 @@
+::-webkit-scrollbar {
+  visibility: hidden;
+}
+ 
+body {
+    color: transparent;
+    margin: 0px 10px auto auto ;
+}
+ 
+.chat_line {
+    font-family: Arial,Microsoft YaHei; /* 字體 */
+    font-size: 16px; /* 字體大小 */
+}
+ 
+.chat_line .nick {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #000;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+ 
+.chat_line .message {
+    line-height: 1.2em; /* 行高 */
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
